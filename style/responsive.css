@@ -34,10 +34,8 @@ nav button {
 }
 #banner .banner-container {
   flex-direction: column-reverse;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+  padding: 25px 15px;
+  
 }
 #banner .banner-content {
   width: 100%;
@@ -57,7 +55,158 @@ nav button {
   font-size: 32px;
 }
 
+#pillers .piller-cards { 
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* vision-section-design */
+
+#vision .vision-cards {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+  flex-direction: column;
+}
 
 
+#comment .comment-container {
+  padding: 28px 14px; 
+}
+
+
+
+#question .question-content{
+  padding: 15px; 
+}
+
+#question .box1 { 
+padding: 10px; 
+}
+
+#question .box1 h3 {
+  font-size: 16px;
+}
+
+#question .big-box p {
+  font-size: 14px; 
+}
+ #question .small-box {
+  padding: 10px;
+ }
+
+   #question .small-box button {
+    background-color: #C6E4D6;
+    padding: 5px 8px; 
+    font-size: 12px;
+  }
+/* news-letter-section-design  */
+
+#news .news-box{
+ margin-top: 22px;
+ padding: 20px; 
+}
+#news .news {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+#news .news img {
+  width : 100%; 
+}
+#news .news-content {
+  width: 100%;
+}
+.news-content h3 {
+  font-size: 22px; 
+}
+.news-icon-text img {
+  max-width: 134px;
+  height: 40px;
+  margin: 5px 0;
+}
+ .news-time {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 12px;
+ }
+ 
+ /* donate-section-design */
+ 
+ #donate .donete-container { 
+  margin: 30px 0;
+ }
+ .donete-container h2 {
+  font-size: 28px; 
+ }
+.donete-container p {
+  width: 100%;  
+  font-size: 14px; 
+  }
+#donate .ammount-box {
+  display: flex; 
+  width: 100%; 
+  gap: 10px; 
+}
+#donate .ammount-box .box {
+  padding: 20px; 
+}
+.ammount-box .box{
+  font-size: 20px; 
+}
+.bg-change {
+  background-color: #C6E4D6;
+}
+.other-ammount {
+  width: 100%; 
+}
+.other-ammount p {
+  padding: 10px;
+  font-size: 14px; 
+}
+
+/* newsletter-section-design */
+ 
+#newsletter .nletter-content p {
+font-size: 14px;  
+}
+#newsletter .nletter-content {
+  text-align: center;
+  width: 100%;
+  padding: 20px 15px;
+} 
+
+#newsletter .form input[type="email"] {
+  width: 600px;
+  padding: 12px 20px;
+  border-radius: 4px 0 0 4px;
+  border: none;
+}
+#newsletter .form input[type="submit"]  {
+  padding: 10px 20px;  
+}
+
+
+/* footer-section-design */
+footer {
+  margin-top: 30px;
+}
+footer .footer-content h2 {
+  font-size: 22px;
+}
+footer .footer-content { 
+  padding: 20px ;
+  flex-direction: column;
+  gap: 20px;
+}
+.social-icons img {
+  width: 14px;
+  height: 14px;
+}
+
+.social-icons { 
+  gap: 10px; 
+}
 
 }
