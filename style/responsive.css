@@ -1,0 +1,63 @@
+
+@media screen and (max-width: 576px) {
+  .main-container { 
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  
+}
+  .btn {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 5px;
+  background-color: #006A50; 
+}
+nav h2 {
+  font-size: 22px; 
+}
+nav button {
+  color: #006A50;
+  border: 2px solid #006A50;
+  font-size: 14px;
+  font-weight: 600 ;
+  padding: 12px 20px ;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.heading {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+#banner .banner-container {
+  flex-direction: column-reverse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#banner .banner-content {
+  width: 100%;
+  text-align: center;
+}
+#banner .banner-image {
+  margin: 0 auto;
+}
+#banner .banner-image img {
+  width: 100%;  
+}
+#banner .banner-content h3 {
+  font-size: 16px;
+}
+
+#banner .banner-content h1 {
+  font-size: 32px;
+}
+
+
+
+
+}
